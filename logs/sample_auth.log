@@ -1,0 +1,12 @@
+Feb  9 10:00:01 server1 sshd[1234]: Accepted password for admin from 192.168.1.10 port 54322 ssh2
+Feb  9 10:05:20 server1 sshd[1235]: Failed password for invalid user guest from 203.0.113.5 port 49152 ssh2
+Feb  9 10:05:22 server1 sshd[1235]: Failed password for invalid user guest from 203.0.113.5 port 49153 ssh2
+Feb  9 10:05:24 server1 sshd[1235]: Failed password for invalid user guest from 203.0.113.5 port 49154 ssh2
+Feb  9 10:05:26 server1 sshd[1235]: Failed password for invalid user guest from 203.0.113.5 port 49155 ssh2
+Feb  9 10:05:28 server1 sshd[1235]: Failed password for invalid user guest from 203.0.113.5 port 49156 ssh2
+Feb  9 11:10:45 server1 sshd[1236]: Accepted password for tech_user from 192.168.1.15 port 54800 ssh2
+Feb  9 12:00:01 server1 sshd[1237]: Failed password for root from 198.51.100.12 port 33210 ssh2
+Feb  9 12:00:05 server1 sshd[1237]: Failed password for root from 198.51.100.12 port 33211 ssh2
+Feb  9 13:15:22 server1 sshd[1238]: Accepted password for tech_user from 192.168.1.15 port 54802 ssh2
+Feb  9 14:20:10 server1 sshd[1239]: Failed password for admin from 172.16.0.5 port 51234 ssh2
+Feb  9 14:20:15 server1 sshd[1239]: Accepted password for admin from 172.16.0.5 port 51234 ssh2
