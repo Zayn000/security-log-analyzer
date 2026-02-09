@@ -1,0 +1,1 @@
+python3 -c "from src.parser import parse_auth_log; print(parse_auth_log('logs/sample_auth.log').head())"
