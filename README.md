@@ -41,3 +41,52 @@ It simulates how a security engineer thinks:
 
 ## 📂 Project Structure
 
+
+---
+
+## 🔍 Core Features
+
+- Log parsing using regular expressions
+- Event normalization into structured formats
+- Behavioral analysis per IP/user
+- Statistical anomaly detection
+- Classification of suspicious activities (e.g., brute-force attempts)
+- JSON-based reporting for security insights
+
+---
+
+## 📊 Example Use Case
+
+- Analyze authentication logs
+- Detect unusually high login failure rates from a single IP
+- Flag the activity as potential brute-force behavior
+- Generate a structured anomaly report
+
+---
+
+## 🚧 Project Status
+
+This project is under active development.  
+Initial focus is on log parsing and anomaly detection logic, with future enhancements planned.
+
+---
+
+## 🔮 Future Improvements
+
+- Support for additional log types (web, firewall, cloud)
+- Threshold tuning and adaptive baselines
+- Integration with alerting or response mechanisms
+- Visualization of detected anomalies
+
+---
+
+## ⚠️ Disclaimer
+
+This project uses **synthetic or sample log data only**.  
+No real or sensitive production logs are included.
+
+---
+
+## 👤 Author
+
+Developed by a Security Automation & Detection Engineer with a focus on Python-based security analytics and automation.
