@@ -17,7 +17,7 @@ def detect_suspicious_ips(
     return df[df["suspicious"]].reset_index(drop=True)
 
 
-def detect_suspicious_ips_zscore(df: pd.DataFrame, threshold: float = 2.5):
+def detect_suspicious_ips_zscore(df: pd.DataFrame, threshold: float = 1.5):
     """
     Detect suspicious IPs using Z-score anomaly detection.
     """
@@ -35,4 +35,5 @@ def detect_suspicious_ips_zscore(df: pd.DataFrame, threshold: float = 2.5):
     )
 
     return suspicious
+
 
