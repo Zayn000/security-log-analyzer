@@ -1,0 +1,14 @@
+{
+    "generated_at": "2026-02-10T11:48:09.762723Z",
+    "total_suspicious_ips": 1,
+    "findings": [
+        {
+            "ip": "203.0.113.99",
+            "total_events": 8,
+            "failed_logins": 8,
+            "success_logins": 0,
+            "z_score": 1.664500757152958,
+            "risk_level": "medium"
+        }
+    ]
+}
