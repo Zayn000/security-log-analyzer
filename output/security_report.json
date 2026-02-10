@@ -1,0 +1,13 @@
+{
+    "generated_at": "2026-02-10T10:51:28.427585Z",
+    "total_suspicious_ips": 1,
+    "findings": [
+        {
+            "ip": "203.0.113.5",
+            "total_events": 5,
+            "failed_logins": 5,
+            "success_logins": 0,
+            "suspicious": true
+        }
+    ]
+}
