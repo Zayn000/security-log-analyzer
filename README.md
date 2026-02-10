@@ -122,8 +122,25 @@ No real or sensitive production logs are included.
 
 - **Why separate parser, analyzer, and detector modules?**  
   This separation follows the single-responsibility principle and reflects how real security pipelines are designed, enabling easier maintenance, testing, and future enhancements.
+---
+
+## 📐 Statistical Anomaly Detection (Z-Score)
+
+In addition to rule-based detection, this project implements statistical anomaly detection using Z-scores.
+
+- Failed login attempts are analyzed across all IP addresses.
+- Each IP is evaluated based on how much its behavior deviates from the global mean.
+- Sensitivity can be tuned via a configurable threshold.
+
+### Calibration Example
+During validation, a synthetic brute-force pattern was injected into the logs.
+- At a conservative threshold (2.5), no alerts were generated.
+- At a calibrated threshold (1.5), the anomalous IP was detected with a medium risk score.
+
+This approach reduces false positives while allowing analysts to adjust detection sensitivity based on environment size and threat model.
 
 ---
+
 
 ## 👤 Author
 
